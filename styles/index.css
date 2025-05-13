@@ -1,29 +1,112 @@
-header{
-    background-image: url("/images/wbg.img.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px 14px;
+    /*space around left and right*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-items {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.hero{
+    display: flex;
     height: 100vh;
 }
 
-nav{
+.hero-left {
+    flex: 1;
+    background-image: url(../images/ronald-felton-6c86TCPmNRQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero-right {
+    flex: 1;
+    background-color: #a4bd24;
     display: flex;
-    gap: 50px;
     justify-content: center;
+    align-items: center;
 }
 
-.navlinks li{
-    list-style-type: none;
+.hero-content {
+    text-align: center;
+    padding: 30px;
+    color: white;
 }
-header a{ 
-    text-decoration: none;
+
+.hero-content h1 {
+  font-size: 48px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-content h6 {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #ffd835;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: rgb(236, 85, 30);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+
+nav h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-left: 70%;
+    font-size: 24px;
+    color: black;
+    
+
+}
+
+
+/* Hover effect for links */
+.nav-items a:hover {
     color: magenta;
 }
 
-header a:hover{
-    color: blue;
-}
-
-.header-text {
-    color: magenta;
+/* Body padding to prevent content hiding under navbar */
+body {
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
 }
