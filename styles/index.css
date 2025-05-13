@@ -1,0 +1,29 @@
+header{
+    background-image: url("/images/wbg.img.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.navlinks li{
+    list-style-type: none;
+}
+header a{ 
+    text-decoration: none;
+    color: magenta;
+}
+
+header a:hover{
+    color: blue;
+}
+
+.header-text {
+    color: magenta;
+}
