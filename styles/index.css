@@ -10,27 +10,37 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
 }
 
 .nav-items {
     width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     display: flex;
     gap: 25px;
     text-decoration: none;
-    color: white;
     font-size: 18px;
     font-weight: bold;
+}
+
+.hero{background-image: url(../images/ronald-felton-6c86TCPmNRQ-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    padding-right: 250px;
 
 }
 
+
+
 nav .logo {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
+    width: 700px;
+    height: fit-content;
+    align-content: space-around;
+    padding: 200px 250px;
 }
 
 
@@ -39,38 +49,28 @@ nav .logo {
     height: 100vh;
 }
 
-.hero-left {
-    flex: 1;
-    background-image: url(../images/ronald-felton-6c86TCPmNRQ-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-
-}
-
-.hero-right {
-    flex: 1;
-    background-color: #a4bd24;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .hero-content {
     text-align: center;
-    padding: 30px;
-    color: white;
+    padding: 60px;
+    margin: 90px;
+    margin-right: 0px;
 }
 
 .hero-content h1 {
-    font-size: 48px;
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #ffd835;
+    font-weight: bold;
+    font-size: 50px;
+    width: 100%;
+    margin: auto;
 }
 
+
 .hero-content h6 {
-    font-size: 18px;
-    margin: 20px 0;
+    font-size: 16px;
+    margin:10px 0px;
     color: #ffd835;
+    padding-top: 0;
 }
 
 .hero-content button {
@@ -80,7 +80,6 @@ nav .logo {
     color: white;
     border: none;
     border-radius: 8px;
-    cursor: pointer;
 }
 
 .text-black {
@@ -92,27 +91,12 @@ nav .logo {
 }
 
 
-
-nav h4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
-    padding-left: 70%;
-    font-size: 24px;
-    color: black;
-
-
-}
-
-
 /* Hover effect for links */
 .nav-items a:hover {
     color: magenta;
 }
 
-/* Body padding to prevent content hiding under navbar */
+
 body {
     padding-top: 70px;
     font-family: Arial, Helvetica, sans-serif;
