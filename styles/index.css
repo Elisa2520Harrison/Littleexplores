@@ -1,10 +1,11 @@
 nav {
-    background-color: white;
+    /* background-color: #6c777c; */
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 80px;
+    height: 70px;
     position: fixed;
     right: 0;
     left: 0;
@@ -15,7 +16,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     align-items: center;
     gap: 30px;
@@ -30,8 +31,8 @@ nav {
     
 }
 
-.text-black {
-    color: black;
+.text-white {
+    color: white;
     word-spacing: 30px;
     
 }
@@ -83,14 +84,25 @@ nav {
     width: 85%;
 }
 
+#dis-but{
+    background-color: #89CFF0;
+    border-radius: 20px;
+    height: 40px;
+    width: 130px;
+  
+    
+
+}
 
 .sec2 {
     margin-left: 30%;
     font-size: 50px;
+    color: #6c777c; ;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px auto;
     margin-top: 20%;
+    
 
 }
 
