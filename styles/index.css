@@ -20,21 +20,21 @@ nav {
     font-weight: bold;
     align-items: center;
     gap: 30px;
-    
-    
+
+
 }
 
 
 .logo {
     width: 70%;
-    
-    
+
+
 }
 
 .text-white {
     color: white;
     word-spacing: 30px;
-    
+
 }
 
 .text-bold {
@@ -50,7 +50,7 @@ nav {
 
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-     rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
+            rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -62,48 +62,47 @@ nav {
 
 }
 
-.content1{
+.content1 {
     font-size: 50px;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 40%;
     width: 90%;
 }
 
-.content2{
+.content2 {
     font-size: 50px;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 40%;
 }
 
-.content3{
+.content3 {
     font-size: 18px;
     word-break: break-all;
     margin-left: 40%;
     width: 85%;
 }
 
-#dis-but{
+#dis-but {
     background-color: #89CFF0;
     border-radius: 20px;
     height: 40px;
     width: 130px;
-  
-    
 
 }
 
 .sec2 {
     margin-left: 30%;
     font-size: 50px;
-    color: #6c777c; ;
+    color: #6c777c;
+    ;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px auto;
     margin-top: 20%;
-    
-
 }
 
 .sec-p {
@@ -115,7 +114,7 @@ nav {
 }
 
 .sec-btn1 {
-    background-color: orange;
+    background-color: #DEB47F;
     border-radius: 10px;
     height: 50px;
     width: 150px;
@@ -129,7 +128,7 @@ nav {
 }
 
 .sec-btn2 {
-    background-color: rgb(236, 79, 31);
+    background-color: #AA7227;
     border-radius: 10px;
     height: 50px;
     width: 150px;
@@ -139,4 +138,93 @@ nav {
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+
+.learn-cent {
+    text-align: center;
+    padding: 3rem;
+}
+
+.learn-cent h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #52676e;
+}
+
+
+
+.word-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.word-grid div {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.course-item {
+    background-color: #f8f9fa;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.course-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.course-item p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #555;
+}
+
+
+.leaders {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../images/pexels-yankrukov-8613057.jpg);
+    text-align: center;
+    padding: 20%;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+.leaders h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.enroll {
+    background-color: #89CFF0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 10%;
+    cursor: pointer;
+    
+
+
 }
