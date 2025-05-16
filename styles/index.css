@@ -16,7 +16,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     align-items: center;
     gap: 30px;
@@ -28,18 +28,15 @@ nav {
 .logo {
     width: 70%;
 
-
 }
 
 .text-white {
     color: white;
     word-spacing: 30px;
-
 }
 
 .text-bold {
     font-weight: bold;
-
 }
 
 
@@ -84,13 +81,17 @@ nav {
     word-break: break-all;
     margin-left: 40%;
     width: 85%;
+    font-weight: bold;
 }
 
 #dis-but {
-    background-color: #89CFF0;
+    background-color: #002C18;
     border-radius: 20px;
     height: 40px;
     width: 130px;
+    margin-left: 40%;
+    margin-top: 3%;
+    font-weight: bold;
 
 }
 
@@ -114,7 +115,7 @@ nav {
 }
 
 .sec-btn1 {
-    background-color: #DEB47F;
+    background-color: #D2A16A;
     border-radius: 10px;
     height: 50px;
     width: 150px;
@@ -216,15 +217,65 @@ nav {
 }
 
 .enroll {
-    background-color: #89CFF0;
+    background-color: #7F2238;
     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 40px;
-    width: 10%;
-    cursor: pointer;
-    
+    width: 130px;
+    margin-left: 5%;
+    margin-top: 4%;
+    font-weight: bold;
+}
 
+.abt h1{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-bottom: 6%;
+    color: #5A9600;
 
 }
+
+.abt p{
+    font-size: 18px;
+}
+
+.stats{
+    padding-top: 16%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: larger;
+    color: #5A9600;
+}
+
+.admission{
+     background-color: #5A9600;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    width: 130px;
+    margin-left: 8%;
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+ .learn-more{
+    background-color: white;
+    color: #5A9600;
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 40px;
+    width: 130px;
+    margin-left: 8%;
+    margin-top: 3%;
+    font-weight: bold;
+ }     
+
+.footer{
+    background-color: #52676e;
+}
+
+
